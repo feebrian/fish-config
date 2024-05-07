@@ -1,11 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-
-if test -f "$HOME/.g/env"
-    source "$HOME/.g/env"
-end
-
 export PATH="$(yarn global bin):$PATH"
 
 # aliases
@@ -18,6 +13,9 @@ alias ch="code ."
 alias v="nvim"
 alias vh="nvim ."
 alias fc="nvim ~/.config/fish/"
+alias fs="source ~/.config/fish/config.fish"
+alias kf="nvim ~/.config/kitty/kitty.conf"
+alias vc="nvim ~/.config/nvim"
 
 alias nrd="npm run dev"
 alias nrb="npm run build"
