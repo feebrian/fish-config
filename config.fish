@@ -6,7 +6,7 @@ export PATH="$(yarn global bin):$PATH"
 # aliases
 alias q="exit"
 alias ls="exa -l"
-alias die="shutdown now"
+alias die="systemctl poweroff"
 alias arise="reboot"
 
 alias c="code"
