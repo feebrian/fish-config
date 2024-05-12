@@ -1,7 +1,10 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-export PATH="$(yarn global bin):$PATH"
+
+function fish_greeting
+  neofetch
+end
 
 # aliases
 alias q="exit"
