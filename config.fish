@@ -10,3 +10,4 @@ end
 
 export QT_QPA_PLATFORMTHEME="qt6ct"
 export GOPATH="/home/insmnxa/go"
+export ATAC_MAIN_DIR="/home/insmnxa/.config/atac"
