@@ -11,3 +11,12 @@ end
 export QT_QPA_PLATFORMTHEME="qt6ct"
 export GOPATH="/home/insmnxa/go"
 export PATH="/usr/bin/"
+
+set -gx GOPATH $HOME/go; set -gx GOROOT $HOME/.go; set -gx PATH $GOPATH/bin $PATH; # g-install: do NOT edit, see https://github.com/stefanmaric/g
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
+# Lando
+export PATH="/usr/local/bin:/home/insmnxa/.lando/bin$PATH+:$PATH"; #landopath
